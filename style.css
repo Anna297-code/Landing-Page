@@ -9,13 +9,19 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin: 0px;
+    margin: 0;
 }
 
 
 .border {
     margin: 0 auto;
 }
+
+.padding-200 {
+    padding: 0 200px;
+}
+
+
 
 header,
 .hero-container,
@@ -28,7 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 130px;
+    
 }
 
 .header-logo {
@@ -50,7 +56,8 @@ nav a {
 
 
 .hero-container {
-    padding: 90px 130px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     display: flex;
     align-items: flex;
     gap: 40px;
@@ -99,7 +106,8 @@ nav a {
 }
 
 .info-container {
-    padding: 60px 170px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,7 +142,8 @@ nav a {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 160px 110px;
+    padding-top: 160px; 
+    padding-bottom: 160px;
 
     display: flex;
     flex-direction: column;
@@ -144,7 +153,7 @@ nav a {
 blockquote {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
     width: 100%;
     max-width: 900px;
@@ -166,7 +175,7 @@ blockquote {
 
 
     background-color: #3882f6;
-    padding: 40px 70px;
+    padding: 40px 120px;
     border-radius: 8px;
     margin: 70px 120px;
 }
